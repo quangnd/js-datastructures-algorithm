@@ -1,11 +1,11 @@
 # Learning data structures and algorithms - with Javascript 🔥
-- Algorithm: method for solving a problem.
-- Data structure: method to store information
-> Algorithms + Data Structures = Programs.
+- **Algorithm**: method for solving a problem.
+- **Data structure**: method to store information
+> ALGORITHMS + DATA STRUCTURES = PROGRAMS.
 
 ## Why learn algorithm 👨🏻‍💻
 
-1. Their impact is broad and far-reaching.
+👉 **Their impact is broad and far-reaching**
 - Internet. Web search, packet routing, distributed file sharing, ...
 - Biology. Human genome project, protein folding, ...
 - Computers. Circuit layout, file system, compilers, ...
@@ -15,23 +15,23 @@
 - Social networks. Recommendations, news feeds, advertisements, ...
 - Physics. N-body simulation, particle collision simulation, ...
 
-2. To solve problems that could not otherwise be addressed 🐞
+👉 **To solve problems that could not otherwise be addressed** 
 
 Ex. Network connectivity
 ![Network connectivity](./assets/images/connectivity_algorithm.png)
 
-3. To become a proficient programmer 🕺
+👉 **To become a proficient programmer**
 
 ```
 “ I will, in fact, claim that the difference between a bad programmer
  and a good one is whether he considers his code or his data structures
  more important. Bad programmers worry about the code. Good
  programmers worry about data structures and their relationships. ”
- — Linus Torvalds (creator of Linux)
+ — **Linus Torvalds** (creator of Linux)
 ```
-4. For intellectual stimulation 😎
+👉 **For intellectual stimulation**
 
-5. They may unlock the secrets of life and of the universe 🤯
+👉 **They may unlock the secrets of life and of the universe**
 
 ## Core Data Structures, Algorithms, and Concepts 🦄
 
@@ -41,10 +41,18 @@ Here's a list of the absolute, must-have knowledge
 
 Source: [Cracking the Coding Interview 6ed](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
 
+For each of these topics, make sure you understand how to use and implement them and, where applicable, the space and time complexity.
+
+Practicing implementing the data structures and algorithm (on paper, and then on a computer) is also a great exercise. It will help you learn how the internals of the data structures work, which is important for many interviews.
+
+> If you don't feel very, very comfortable with each of the data structures and algorithms listed, practice implementing them from scratch.
+
+In particular, **hash tables** are an extremely important topic. Make sure you are very comfortable with this data structure.
+
 ## References 📃
 
-- Coursera course: Algorithm Part I
-- Heavy reference from https://github.com/trekhleb/javascript-algorithms
+- Coursera course: [Algorithm Part I](https://www.coursera.org/learn/algorithms-part1/)
+- Heavy reference from [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
 
 
