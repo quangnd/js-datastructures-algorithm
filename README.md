@@ -56,8 +56,8 @@ In particular, **hash tables** are an extremely important topic. Make sure you a
 
 ## References 📃
 
-- Coursera course: [Algorithm Part I](https://www.coursera.org/learn/algorithms-part1/)
-- Heavy reference from [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+- Course at **Coursera**: [Algorithm Part I](https://www.coursera.org/learn/algorithms-part1/)
+- Heavily reference from [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
 
 
