@@ -6,7 +6,6 @@ export default class LinkedList {
    * @param {Function} [comparatorFunction]
    */
   constructor(comparatorFunction) {
-    console.log('Hello Node.js project.');
     /** @var LinkedListNode */
     this.head = null;
 

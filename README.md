@@ -1,4 +1,4 @@
-# Learning data structures and algorithms - with Javascript 🔥
+# Learning data structures and algorithms - using JS & Ava test runner🔥
 - **Algorithm**: method for solving a problem.
 - **Data structure**: method to store information
 > ALGORITHMS + DATA STRUCTURES = PROGRAMS.
@@ -48,6 +48,11 @@ Practicing implementing the data structures and algorithm (on paper, and then on
 > If you don't feel very, very comfortable with each of the data structures and algorithms listed, practice implementing them from scratch.
 
 In particular, **hash tables** are an extremely important topic. Make sure you are very comfortable with this data structure.
+
+## Setup
+
+1. Run `npm i` to install.
+2. Run `npm test` to run all tests.
 
 ## References 📃
 
