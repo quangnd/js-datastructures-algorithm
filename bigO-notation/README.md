@@ -14,13 +14,13 @@ How can we determine which function is the "Best" ?
 
 ## Why ?
 
-- It's important to have a precise vocabulary to talk about how  our code perform (compared to others).
+- It's important to have a precise vocabulary to talk about how our code perform (compared to others).
 - Useful for discussing trade-offs between different approaches.
-
 
 ## Define "Time complexity" and "Space complexity"
 
 
 ## Ref
-- [Performance Timing API](https://nodejs.org/docs/latest-v8.x/api/perf_hooks.html#perf_hooks_performance_now) 
+- [Performance Timing API](https://nodejs.org/docs/latest-v8.x/api/perf_hooks.html#perf_hooks_performance_now)
 - [Function timer demo](https://rithmschool.github.io/function-timer-demo/)
+- [Big O Notation Introduction Slides](https://cs.slides.com/colt_steele/big-o-notation)
