@@ -17,6 +17,18 @@ How can we determine which function is the "Best" ?
 - It's important to have a precise vocabulary to talk about how our code perform (compared to others).
 - Useful for discussing trade-offs between different approaches.
 
+## Simplifying Big O Expressions
+
+- Constants Don't Matter
+  - O(2n), O(n + 10), O(1000n + 50) => O(n)
+  - O(500) => O(1)
+  - O(13n<sup>2</sup>), O(n<sup>2</sup> + 5n +8)  => O(n<sup>2</sup>)
+- Big O shorthands
+  1. Arithmetic operations are constant
+  2. Variable assignment is constant
+  3. Access elements in an array (by index) or object (by key) is constant.
+  4. In a loop, the complexity is the length of the loop times the complexity of whatever happens inside of the loop
+
 ## Define "Time complexity" and "Space complexity"
 
 
