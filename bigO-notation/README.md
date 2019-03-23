@@ -6,11 +6,6 @@ How can we determine which function is the "Best" ?
 - Big O Notation is just a way of formalize fuzzy counting
 - It allow us to talk formally about how the runtime of an algorithm grows as the inputs grow.
 - We won't care about the details, only the trends.
-- **Definition**: We say that an algorithm is **O(f(n))** if the number of simple operations the computer has to do is eventually less than a constant times **f(n)**, as n increases
-  - f(n) could be linear (f(n) = n). 
-  - f(n) could be quadratic (f(n) = n<sup>2</sup>).
-  - f(n) could be constant (f(n) = 1)
-  - f(n) could be something entirely different!
 
 ## Why ?
 
@@ -32,6 +27,11 @@ How can we determine which function is the "Best" ?
 ## Define "Time complexity" and "Space complexity"
 
 1. Time complexity
+- **Definition**: We say that an algorithm is **O(f(n))** if the number of simple operations the computer has to do is eventually less than a constant times **f(n)**, as n increases
+  - f(n) could be linear (f(n) = n). 
+  - f(n) could be quadratic (f(n) = n<sup>2</sup>).
+  - f(n) could be constant (f(n) = 1)
+  - f(n) could be something entirely different!
 2. Space complexity
 - Sometimes you'll hear the term **auxiliary space complexity** to refer to space required by the algorithm, not including space taken up by the inputs.
 - Unless otherwise noted, when we talk about space complexity, technically we'll talking about auxiliary space complexity.
@@ -42,7 +42,7 @@ How can we determine which function is the "Best" ?
 
 ## Logarithms complexity
 
-- Sometimes big O expressions involve more complex mathematical expressions. One that appears more oftan than you might like is the logarithm!
+- Sometimes big O expressions involve more complex mathematical expressions. One that appears more often than you might like is the logarithm!
 - Explain about LOG
   - log<sub>2</sub>(8) = 3 -----> 2<sup>3</sup> = 8
   - log<sub>2</sub>(value) = exponent -----> 2<sup>exponent</sup> = value
@@ -53,7 +53,7 @@ How can we determine which function is the "Best" ?
 
 ## Summary
 
-![Big O Types](./assets/images/BigO-Types.png)
+![Big O Types](../assets/images/BigO-Types.png)
 
 - To analyze the performance of an algorithm, we use Big O Notation.
 - Big O can give us a high level understanding of the time or space complexity of an algorithm.
