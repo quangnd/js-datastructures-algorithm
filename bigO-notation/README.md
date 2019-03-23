@@ -31,8 +31,38 @@ How can we determine which function is the "Best" ?
 
 ## Define "Time complexity" and "Space complexity"
 
+1. Time complexity
+2. Space complexity
+- Sometimes you'll hear the term **auxiliary space complexity** to refer to space required by the algorithm, not including space taken up by the inputs.
+- Unless otherwise noted, when we talk about space complexity, technically we'll talking about auxiliary space complexity.
+- Rules of Thumb
+  - Most primitives (booleans, numbers, undefined, null) are constant space.
+  - String require O(n) space (where n is the string length).
+  - Reference types are generally O(n), where n is the length (for arrays) or the number of keys(for objects)
 
-## Ref
+## Logarithms complexity
+
+- Sometimes big O expressions involve more complex mathematical expressions. One that appears more oftan than you might like is the logarithm!
+- Explain about LOG
+  - log<sub>2</sub>(8) = 3 -----> 2<sup>3</sup> = 8
+  - log<sub>2</sub>(value) = exponent -----> 2<sup>exponent</sup> = value
+- Who cares?
+  - Certain searching algorithms have logarithmic time complexity.
+  - Efficient sorting algorithms involve logarithms.
+  - Recursion sometimes involves logarithmic space complexity.
+
+## Summary
+
+![Big O Types](./assets/images/BigO-Types.png)
+
+- To analyze the performance of an algorithm, we use Big O Notation.
+- Big O can give us a high level understanding of the time or space complexity of an algorithm.
+- Big O doesn't care about precision, only about general trends (linear? quadratic? constant?)
+- The time or space complexity (as measured by Big O) depends only on the algorithm, not the hardware used to run the algorithm.
+- Big O Notation is everywhere, so get lots of practice!
+
+## References
+
 - [Performance Timing API](https://nodejs.org/docs/latest-v8.x/api/perf_hooks.html#perf_hooks_performance_now)
 - [Function timer demo](https://rithmschool.github.io/function-timer-demo/)
 - [Big O Notation Introduction Slides](https://cs.slides.com/colt_steele/big-o-notation)
