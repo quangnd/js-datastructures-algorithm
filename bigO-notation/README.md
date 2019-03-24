@@ -15,10 +15,10 @@ How can we determine which function is the "Best" ?
 ## Simplifying Big O Expressions
 
 - Constants Don't Matter
-  - O(2n), O(n + 10), O(1000n + 50) => O(n)
-  - O(500) => O(1)
-  - O(13n<sup>2</sup>), O(n<sup>2</sup> + 5n +8)  => O(n<sup>2</sup>)
-- Big O shorthands
+  - `O(2n), O(n + 10), O(1000n + 50) => O(n)`
+  - `O(500) => O(1)`
+  - `O(13n<sup>2</sup>), O(n<sup>2</sup> + 5n +8)  => O(n<sup>2</sup>)`
+- Big O short-hands
   1. Arithmetic operations are constant
   2. Variable assignment is constant
   3. Access elements in an array (by index) or object (by key) is constant.
@@ -26,13 +26,13 @@ How can we determine which function is the "Best" ?
 
 ## Define "Time complexity" and "Space complexity"
 
-1. Time complexity
-- **Definition**: We say that an algorithm is **O(f(n))** if the number of simple operations the computer has to do is eventually less than a constant times **f(n)**, as n increases
+1. **Time complexity**
+- We say that an algorithm is **O(f(n))** if the number of simple operations the computer has to do is eventually less than a constant times **f(n)**, as n increases
   - f(n) could be linear (f(n) = n). 
   - f(n) could be quadratic (f(n) = n<sup>2</sup>).
   - f(n) could be constant (f(n) = 1)
   - f(n) could be something entirely different!
-2. Space complexity
+2. **Space complexity**
 - Sometimes you'll hear the term **auxiliary space complexity** to refer to space required by the algorithm, not including space taken up by the inputs.
 - Unless otherwise noted, when we talk about space complexity, technically we'll talking about auxiliary space complexity.
 - Rules of Thumb
@@ -44,8 +44,8 @@ How can we determine which function is the "Best" ?
 
 - Sometimes big O expressions involve more complex mathematical expressions. One that appears more often than you might like is the logarithm!
 - Explain about LOG
-  - log<sub>2</sub>(8) = 3 -----> 2<sup>3</sup> = 8
-  - log<sub>2</sub>(value) = exponent -----> 2<sup>exponent</sup> = value
+  - `log<sub>2</sub>(8) = 3 -----> 2<sup>3</sup> = 8`
+  - `log<sub>2</sub>(value) = exponent -----> 2<sup>exponent</sup> = value`
 - Who cares?
   - Certain searching algorithms have logarithmic time complexity.
   - Efficient sorting algorithms involve logarithms.
@@ -63,6 +63,6 @@ How can we determine which function is the "Best" ?
 
 ## References
 
-- [Performance Timing API](https://nodejs.org/docs/latest-v8.x/api/perf_hooks.html#perf_hooks_performance_now)
+- [Performance Timing API in NodeJS](https://nodejs.org/docs/latest-v8.x/api/perf_hooks.html#perf_hooks_performance_now)
 - [Function timer demo](https://rithmschool.github.io/function-timer-demo/)
 - [Big O Notation Introduction Slides](https://cs.slides.com/colt_steele/big-o-notation)
