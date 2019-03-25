@@ -9,6 +9,7 @@ When you don't need any ordering, objects are an excellent choice!
 - Removal - `O(1)`
 - Searching - `O(n)` - linear time
 - Access - `O(1)`
+
 **2. Big O of Object Built-in Methods**
 - Object.keys - `O(n)`
 - Object.values - `O(n)`
@@ -35,5 +36,9 @@ When you need order (note that still have another data-structures) and when you 
 - splice - `O(n)`
 - sort - `O(n * log n)`
 - forEach/map/filter/reduce/etc. - `O(n)`
+
+## References
+
+- [Built in Data Structures Slides](https://cs.slides.com/colt_steele/built-in-data-structures-25#/)
 
 
