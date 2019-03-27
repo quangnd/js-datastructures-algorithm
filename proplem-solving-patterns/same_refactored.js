@@ -5,7 +5,7 @@
  * in the array has it's corresponding value squared in the second array. The frequency of values must be 
  * the same.
  * 
- * Below is refactored solution
+ * Below is refactored solution - only one loop - the time complexity is O(n)
  * 
  * @param {array} arr1 
  * @param {array} arr2 
@@ -18,14 +18,14 @@ function same(arr1, arr2) {
 
   let frequencyCounter1 = {}
   let frequencyCounter2 = {}
+
   for (let val of arr1) {
     frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1
   }
   for (let val of arr2) {
     frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1
   }
-  console.log(frequencyCounter1);
-  console.log(frequencyCounter2);
+
   for (let key in frequencyCounter1) {
     if (!(key ** 2 in frequencyCounter2)) {
       return false

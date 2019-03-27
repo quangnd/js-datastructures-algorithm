@@ -5,7 +5,7 @@
  * in the array has it's corresponding value squared in the second array. The frequency of values must be 
  * the same.
  * 
- * Below is naive solution
+ * Below is naive solution, nested loop, the time complexity is O(n^2)
  * 
  * @param {array} arr1 
  * @param {array} arr2 

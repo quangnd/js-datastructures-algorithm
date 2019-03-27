@@ -60,7 +60,7 @@
   same([1,2,3], [1,9]) // false
   same([1,2,1], [4,4,1]) // false (must be same frequency)
   ```
-  Check `same_naive.js` and `same_refactored.js` to see details.
+  Check `same_naive.js` and `same_refactored.js` to see details. Also have a look in `anagram_frequency_counter.js`.
 
 ## References
 - [Problem solving patterns slides](https://cs.slides.com/colt_steele/problem-solving-patterns#/)
