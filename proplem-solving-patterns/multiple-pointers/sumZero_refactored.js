@@ -1,4 +1,4 @@
-// See the naive version first please
+// You should check the naive version first
 
 // -- Refactored version --
 // Time Complexity - O(N)
