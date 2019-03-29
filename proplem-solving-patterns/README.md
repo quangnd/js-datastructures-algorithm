@@ -52,19 +52,12 @@
 - more...
 
 1. **Frequency counter**
-- This pattern uses objects or sets to collect values/frequencies of values
-- This can often avoid the need for nested loops or O(N^2) operations with arrays / strings
-- Example: *Write a function called same, which accepts two arrays. The function should return true if every value in the array has it's corresponding value squared in the second array. The frequency of values must be the same.*
-  ```
-  same([1,2,3], [4,1,9]) // true
-  same([1,2,3], [1,9]) // false
-  same([1,2,1], [4,4,1]) // false (must be same frequency)
-  ```
-  Check `same_naive.js` and `same_refactored.js` to see details. Also have a look in `anagram_frequency_counter.js`.
+- This pattern uses objects or sets to collect values/frequencies of values.
+- This can often avoid the need for nested loops or O(N^2) operations with arrays / strings.
 
 2. **Multiple pointers**
 - Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on a certain condition.
-- Very efficient for solving problems with minimal space complexity as well
+- Very efficient for solving problems with minimal space complexity as well.
 
 3. **Sliding window**
 - This pattern involves creating a window which can either be an array or number from one position to another.
