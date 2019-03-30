@@ -64,5 +64,9 @@
 - Depending on a certain condition, the window either increases or closes (and a new window is created)
 - Very useful for keeping track of a subset of data in an array/string etc.
 
+4. **Divide and conquer**
+- This pattern involves dividing a data set into small chunks and then repeating a process with a subset of data.
+- This pattern can tremendously decrease time complexity.
+
 ## References
 - [Problem solving patterns slides](https://cs.slides.com/colt_steele/problem-solving-patterns#/)
