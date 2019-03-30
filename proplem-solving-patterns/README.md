@@ -70,3 +70,4 @@
 
 ## References
 - [Problem solving patterns slides](https://cs.slides.com/colt_steele/problem-solving-patterns#/)
+- [100% Optional Challenge](https://github.com/alexticovschi/JavaScript-Algorithms-and-Data-Structures-Masterclass/tree/master/100%25%20OPTIONAL%20Challenges)
