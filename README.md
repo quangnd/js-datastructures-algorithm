@@ -1,4 +1,5 @@
-# Learning data structures and algorithms - using JS & Ava test runner🔥
+# Learning data structures and algorithms
+Using Javascript & Ava test runner🔥
 - **Algorithm**: method for solving a problem.
 - **Data structure**: method to store information
 > ALGORITHMS + DATA STRUCTURES = PROGRAMS.
