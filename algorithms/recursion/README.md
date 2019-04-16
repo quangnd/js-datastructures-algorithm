@@ -71,6 +71,24 @@ See `collect_odd_values_with_pure_recursion.js` to understand about the Pure sol
 
 `npm run test-recursion`
 
+## Practicing recursion
+
+1. Write a JavaScript program to get the integers in range (x, y). 
+```
+Example : range(2, 9)
+Expected Output : [3, 4, 5, 6, 7, 8]
+```
+2. Write a JavaScript program to compute the sum of an array of integers.
+```
+Example : var array = [1, 2, 3, 4, 5, 6]
+Expected Output : 21 
+```
+3. Write a JavaScript program to compute the exponent of a number.
+```
+Note : The exponent of a number says how many times the base number is used as a factor.
+82 = 8 x 8 = 64. Here 8 is the base and 2 is the exponent.
+```
+
 ## References
 - [Recursion slides](https://cs.slides.com/colt_steele/searching-algorithms-22#/23)
-
+- [JS recursion functions exercises](https://www.w3resource.com/javascript-exercises/javascript-recursion-functions-exercises.php)
