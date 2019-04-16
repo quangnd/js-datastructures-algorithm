@@ -78,10 +78,11 @@ See `collect_odd_values_with_pure_recursion.js` to understand about the Pure sol
 Example : range(2, 9)
 Expected Output : [3, 4, 5, 6, 7, 8]
 ```
-2. Write a JavaScript program to compute the sum of an array of integers.
+2. Find the greatest common divisor of two positive numbers. Check out [USCLN](https://vi.wikipedia.org/wiki/%C6%AF%E1%BB%9Bc_s%E1%BB%91_chung_l%E1%BB%9Bn_nh%E1%BA%A5t)
 ```
-Example : var array = [1, 2, 3, 4, 5, 6]
-Expected Output : 21 
+Example1: gcd(2154, 458) = 2
+Example2: gcd(12, 18) = 6
+Example3: gcd(5, 0) = 5 
 ```
 3. Write a JavaScript program to compute the exponent of a number.
 ```

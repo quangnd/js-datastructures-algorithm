@@ -14,4 +14,11 @@ test('2. Should display the result of calculating the exponent of a number', t =
   t.is(funcs.calcExponent(2, 5), 32)
 });
 
+test('3. Should display the greatest common divisor of two positive numbers', t => {
+  t.is(funcs.gcd(2154, 458), 2)
+  t.is(funcs.gcd(12, 18), 6)
+  t.is(funcs.gcd(5, 0), 5)
+  t.is(funcs.gcd(0, 5), 5)
+});
+
 
