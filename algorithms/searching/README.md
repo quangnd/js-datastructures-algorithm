@@ -1,4 +1,4 @@
-# Searching algorithm
+# Searching algorithm 👁
 
 ## Objective
 
@@ -46,16 +46,16 @@
 
 ### Big O
 
+- Best: O(1)
 - Worst: O(log n)
-  - Example 1
+
+  - **Example 1**
 
   ![Binary search bigO example 1](../../assets/images/binary-search-bigO-1.png)
 
-  - Example 2
+  - **Example 2**
 
   ![Binary search bigO example 2](../../assets/images/binary-search-bigO-2.png)
-
-- Best: O(1)
 
 ## Naive String Search 👩‍🎤
 
@@ -93,5 +93,5 @@
 - KMP provides a linear time algorithm for searches in strings.
 
 ## References
-- [Search algorithm slides](hhttps://cs.slides.com/colt_steele/tries-21#/)
+- [Search algorithm slides](https://cs.slides.com/colt_steele/tries-21#/)
 
