@@ -7,7 +7,8 @@
     "start": "nodemon index.js",
     "test": "ava --verbose",
     "test-patterns": "ava --verbose ./problem-solving-patterns/*/*.test.js",
-    "test-recursion": "ava --verbose ./algorithms/recursion/*.test.js"
+    "test-recursion": "ava --verbose ./algorithms/recursion/*.test.js",
+    "test-search": "ava --verbose ./algorithms/searching/*.test.js"
   },
   "repository": {
     "type": "git",
