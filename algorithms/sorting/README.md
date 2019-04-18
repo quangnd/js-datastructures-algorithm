@@ -22,7 +22,7 @@ Examples
 - There are many different ways to sort things, and different technique have their own advantages and disadvantages.
 - Sorting sometimes has quirks, so it's good to understand how to navigate them.
 
-## Bubble sort 🛁
+## BUBBLE SORT 🛁
 *A sorting algorithm where the largest values bubble up to the top!*
 
 ### Example
@@ -36,6 +36,13 @@ Examples
 - Start an inner loop with a variable called j from the beginning until i - 1.
   - If arr[j] is greater than arr[j+1], swap those two values!
 - Return the sorted array
+
+### Big O
+
+- Worst: O(n<sup>2</sup>)
+- Best: O(n) *(with nearly sorted array)*
+
+## SELECTION SORT 🧤
 
 ## References
 
