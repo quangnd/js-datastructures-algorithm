@@ -50,19 +50,18 @@ Practicing implementing the data structures and algorithm (on paper, and then on
 
 In particular, **hash tables** are an extremely important topic. Make sure you are very comfortable with this data structure.
 
-## Setup
+## Up & Running 🏃‍
 
 1. Run `npm i` to install.
 2. Run `npm test` to run all tests.
+3. Run `npm run test-recursion` to run all tests in `recursion folder`.
+4. Run `npm run test-search` to run all tests in `searching folder`.
 
-## References 📃
-
-- Course at **Coursera**: [Algorithm Part I](https://www.coursera.org/learn/algorithms-part1/)
-- Heavily reference from [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
-
-## Learning resources
+## Learning resources 📃
 
 - [Easy to Advanced Data Structures free course at Udemy](https://www.udemy.com/introduction-to-data-structures/)
 - [Algorithm Part I at Coursera](https://www.coursera.org/learn/algorithms-part1/)
 - [Problem solving patterns slides](https://cs.slides.com/colt_steele/problem-solving-patterns#/)
+- Course at **Coursera**: [Algorithm Part I](https://www.coursera.org/learn/algorithms-part1/)
+- Heavily reference from [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
