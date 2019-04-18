@@ -65,6 +65,10 @@ Examples
 ## 3. INSERTION SORT ⛳️
 *Builds up the sort by gradually creating a larger left half which is always sorted*
 
+### Example
+
+- ![Insertion Sort example](../../assets/images/insertion-sort-1.png)
+
 ### Pseusocode
 *Check out [Visualgo.net](https://visualgo.net/en/sorting), click **Insertion sort** to see the visualization.*
 
@@ -78,7 +82,7 @@ Examples
 - Worst: O(n<sup>2</sup>)
 - Best: O(n) *(with nearly sorted array)*
 
-👹 Recap - 3 simple sorting algorithm
+## 👹 Recap - 3 simple sorting algorithm
 
 - Sorting is fundamental!
 - Bubble sort, selection sort, and insertion sort are all roughly equivalent.
