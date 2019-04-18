@@ -27,7 +27,7 @@ Examples
 
 ### Example
 
-- ![Binary search bigO example 1](../../assets/images/bubble-sort-1.png)
+- ![Bubble sort example](../../assets/images/bubble-sort-1.png)
 
 ### Pseudocode
 *Check out [Visualgo.net](https://visualgo.net/en/sorting), click **Bubble sort** to see the visualization.*
@@ -43,6 +43,20 @@ Examples
 - Best: O(n) *(with nearly sorted array)*
 
 ## SELECTION SORT 🧤
+*Similar to bubble sort, but instead of first placing large values into sorted position, it places small values into sorted position*
+
+### Example
+
+- ![Selection Sort example](../../assets/images/selection-sort-1.png)
+
+### Pseudocode
+*Check out [Visualgo.net](https://visualgo.net/en/sorting), click **Selection sort** to see the visualization.*
+
+- Store the first element as the smallest value you've seen so far.
+- Compare this item to next item in the array until you find a smaller number.
+- If a smaller number is found, designate that smaller number to be new "minimum" and continue until the end of the array.
+- If the "minimum" is not the value (index) you initially began with, swap the two values.
+- Repeat this with the next element until the array is sorted.
 
 ## References
 
