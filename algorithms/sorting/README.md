@@ -22,7 +22,7 @@ Examples
 - There are many different ways to sort things, and different technique have their own advantages and disadvantages.
 - Sorting sometimes has quirks, so it's good to understand how to navigate them.
 
-## BUBBLE SORT 🛁
+## 1. BUBBLE SORT 🛁
 *A sorting algorithm where the largest values bubble up to the top!*
 
 ### Example
@@ -42,7 +42,7 @@ Examples
 - Worst: O(n<sup>2</sup>)
 - Best: O(n) *(with nearly sorted array)*
 
-## SELECTION SORT 🧤
+## 2. SELECTION SORT 🧤
 *Similar to bubble sort, but instead of first placing large values into sorted position, it places small values into sorted position*
 
 ### Example
@@ -61,6 +61,31 @@ Examples
 ### Big O
 
 - Time complexity: O(n<sup>2</sup>)
+
+## 3. INSERTION SORT ⛳️
+*Builds up the sort by gradually creating a larger left half which is always sorted*
+
+### Pseusocode
+*Check out [Visualgo.net](https://visualgo.net/en/sorting), click **Insertion sort** to see the visualization.*
+
+- Start by picking the second element in the array.
+- Now compare the second element with the one before it and swap if necessary.
+- Continue to the next element and if it is in the incorrect order, iterate through the sorted portion (i.e. the left side) to place the element in the correct place.
+- Repeat until the array is sorted.
+
+### Big O
+
+- Worst: O(n<sup>2</sup>)
+- Best: O(n) *(with nearly sorted array)*
+
+👹 Recap - 3 simple sorting algorithm
+
+- Sorting is fundamental!
+- Bubble sort, selection sort, and insertion sort are all roughly equivalent.
+- All have average time complexities that are quadratic.
+- We can do better...but we need more complex algorithms!
+- Big O comparison 
+  - ![Selection Sort example](../../assets/images/bigO-3-simple-sorting-algorithm.png)
 
 ## References
 
