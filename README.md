@@ -63,6 +63,5 @@ In particular, **hash tables** are an extremely important topic. Make sure you a
 - [Easy to Advanced Data Structures free course at Udemy](https://www.udemy.com/introduction-to-data-structures/)
 - [Algorithm Part I at Coursera](https://www.coursera.org/learn/algorithms-part1/)
 - [Problem solving patterns slides](https://cs.slides.com/colt_steele/problem-solving-patterns#/)
-- Course at **Coursera**: [Algorithm Part I](https://www.coursera.org/learn/algorithms-part1/)
-- Heavily reference from [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+- Reference from [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
