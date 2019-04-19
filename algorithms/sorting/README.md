@@ -27,7 +27,7 @@ Examples
 
 ### Example
 
-- ![Bubble sort example](../../assets/images/bubble-sort-1.png)
+- ![Bubble sort example](../../assets/images/algorithms/bubble-sort-1.png)
 
 ### Pseudocode
 *Check out [Visualgo.net](https://visualgo.net/en/sorting), click **Bubble sort** to see the visualization.*
@@ -42,7 +42,7 @@ Examples
 
 ### Example
 
-- ![Selection Sort example](../../assets/images/selection-sort-1.png)
+- ![Selection Sort example](../../assets/images/algorithms/selection-sort-1.png)
 
 ### Pseudocode
 *Check out [Visualgo.net](https://visualgo.net/en/sorting), click **Selection sort** to see the visualization.*
@@ -58,7 +58,7 @@ Examples
 
 ### Example
 
-- ![Insertion Sort example](../../assets/images/insertion-sort-1.png)
+- ![Insertion Sort example](../../assets/images/algorithms/insertion-sort-1.png)
 
 ### Pseusocode
 *Check out [Visualgo.net](https://visualgo.net/en/sorting), click **Insertion sort** to see the visualization.*
@@ -75,7 +75,7 @@ Examples
 - All have average time complexities that are quadratic.
 - We can do better...but we need more complex algorithms!
 - Big O comparison 
-  - ![Selection Sort example](../../assets/images/bigO-3-simple-sorting-algorithm.png)
+  - ![Selection Sort example](../../assets/images/algorithms/bigO-3-simple-sorting-algorithm.png)
 
 ## References
 

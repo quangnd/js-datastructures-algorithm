@@ -51,11 +51,11 @@
 
   - **Example 1**
 
-  ![Binary search bigO example 1](../../assets/images/binary-search-bigO-1.png)
+  ![Binary search bigO example 1](../../assets/images/algorithms/binary-search-bigO-1.png)
 
   - **Example 2**
 
-  ![Binary search bigO example 2](../../assets/images/binary-search-bigO-2.png)
+  ![Binary search bigO example 2](../../assets/images/algorithms/binary-search-bigO-2.png)
 
 ## Naive String Search 👩‍🎤
 

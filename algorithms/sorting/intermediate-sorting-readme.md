@@ -23,7 +23,7 @@
 
 ### Example
 
-- ![Merge Sort example](../../assets/images/merge-sort-1.png)
+- ![Merge Sort example](../../assets/images/algorithms/merge-sort-1.png)
 
 ### Merging Arrays Pseudocode
 
@@ -42,9 +42,9 @@
 
 ### Big O
 
-- ![Merge Sort Big O](../../assets/images/merge-sort-bigO.png)
+- ![Merge Sort Big O](../../assets/images/algorithms/merge-sort-bigO.png)
 - Why ?
-  - ![Merge Sort Big O Why?](../../assets/images/merge-sort-bigO-why.png)
+  - ![Merge Sort Big O Why?](../../assets/images/algorithms/merge-sort-bigO-why.png)
 
 ## 📌QUICK SORT
 
@@ -88,11 +88,11 @@
 
 ### Big O
 
-- ![Quick Sort Big O](../../assets/images/quick-sort-bigO.png)
+- ![Quick Sort Big O](../../assets/images/algorithms/quick-sort-bigO.png)
 - Why ?
   - **Best case**
 
-    - ![Quick Sort Big O Why Best case?](../../assets/images/quick-sort-bigO-why-best.png)
+    - ![Quick Sort Big O Why Best case?](../../assets/images/algorithms/quick-sort-bigO-why-best.png)
   - **Worse case**
 
-    - ![Quick Sort Big O Why Worse case?](../../assets/images/quick-sort-bigO-why-worse.png)
+    - ![Quick Sort Big O Why Worse case?](../../assets/images/algorithms/quick-sort-bigO-why-worse.png)
