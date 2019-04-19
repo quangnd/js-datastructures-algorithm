@@ -56,6 +56,7 @@ In particular, **hash tables** are an extremely important topic. Make sure you a
 2. Run `npm test` to run all tests.
 3. Run `npm run test-recursion` to run all tests in `recursion folder`.
 4. Run `npm run test-search` to run all tests in `searching folder`.
+5. Run `npm run test-sort` to run all tests in `sorting folder`.
 
 ## Learning resources 📃
 
