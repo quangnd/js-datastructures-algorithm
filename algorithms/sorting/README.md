@@ -37,11 +37,6 @@ Examples
   - If arr[j] is greater than arr[j+1], swap those two values!
 - Return the sorted array
 
-### Big O
-
-- Worst: O(n<sup>2</sup>)
-- Best: O(n) *(with nearly sorted array)*
-
 ## 2. SELECTION SORT 🧤
 *Similar to bubble sort, but instead of first placing large values into sorted position, it places small values into sorted position*
 
@@ -58,12 +53,8 @@ Examples
 - If the "minimum" is not the value (index) you initially began with, swap the two values.
 - Repeat this with the next element until the array is sorted.
 
-### Big O
-
-- Time complexity: O(n<sup>2</sup>)
-
 ## 3. INSERTION SORT ⛳️
-*Builds up the sort by gradually creating a larger left half which is always sorted*
+*Builds up the sort by gradually creating a larger left half which is always sorted. **Efficiency with nearly sorted array***
 
 ### Example
 
@@ -76,11 +67,6 @@ Examples
 - Now compare the second element with the one before it and swap if necessary.
 - Continue to the next element and if it is in the incorrect order, iterate through the sorted portion (i.e. the left side) to place the element in the correct place.
 - Repeat until the array is sorted.
-
-### Big O
-
-- Worst: O(n<sup>2</sup>)
-- Best: O(n) *(with nearly sorted array)*
 
 ## 👹 Recap - 3 simple sorting algorithm
 

@@ -5,10 +5,10 @@ export default function insertionSort(arr) {
     currentVal = arr[i]
     let j = i - 1
     while (j >= 0 && arr[j] > currentVal) {
-      arr[j + 1] = arr[j]
+      arr[j + 1] = arr[j] // make a place for currentVal
       j--
     }
-    arr[j + 1] = currentVal
+    arr[j + 1] = currentVal // index j+1 is the insertion point
   }
   return arr
 }

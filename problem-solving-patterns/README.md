@@ -24,7 +24,7 @@
 - Explicitly write out the steps you need to take *(This forces you to think about the code you'll write before you write it, and helps you catch any lingering conceptual issues or misunderstandings before you dive in and have to worry about details (e.g. language syntax) as well.)*
 
 **4. Solve/Simplify**
-- If you can't solve the problem, solve the simpler problem. 
+> If you can't solve the problem, solve the simpler problem. 
 - To simplify, you need:
   - Find the core difficulty in what you're trying to do
   - Temporarily ignore that difficulty
@@ -53,7 +53,7 @@
 
 1. **Frequency counter**
 - This pattern uses objects or sets to collect values/frequencies of values.
-- This can often avoid the need for nested loops or O(N^2) operations with arrays / strings.
+- This can often avoid the need for nested loops or O(N<sup>2</sup>) operations with arrays / strings.
 
 2. **Multiple pointers**
 - Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on a certain condition.
