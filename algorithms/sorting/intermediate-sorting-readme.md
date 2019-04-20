@@ -96,3 +96,76 @@
   - **Worse case**
 
     - ![Quick Sort Big O Why Worse case?](../../assets/images/algorithms/quick-sort-bigO-why-worse.png)
+
+## RADIX SORT
+
+### Features
+
+- Radix sort is a special sorting algorithm that works on lists of numbers.
+- It never makes comparisons between elements!
+- It exploits the fact that information about the size of a number is encoded in the number of digits.  
+- More digits means a bigger number!
+
+### Radix sort helpers
+In order to implement radix sort, it's helpful to build a few helper functions first
+
+1. `getDigit(num, place)` - returns the digit in num at the given place value
+```
+function getDigit(num, i) {
+  return Math.floor(Math.abs(num) / Math.pow(10, i)) % 10;
+}
+
+getDigit(7898, 1) //Output: 9
+```
+2. `digitCount(num)` - returns the number of digits in num
+```
+function digitCount(num) {
+  if (num === 0) return 1;
+  return Math.floor(Math.log10(Math.abs(num))) + 1;
+}
+digitCount(1); // 1
+digitCount(25); // 2
+digitCount(314); // 3
+```
+3. `mostDigits(nums)` - Given an array of numbers, returns the number of digits in the largest numbers in the list
+```
+function mostDigits(nums) {
+  let maxDigits = 0;
+  for (let i = 0; i < nums.length; i++) {
+    maxDigits = Math.max(maxDigits, digitCount(nums[i]));
+  }
+  return maxDigits;
+}
+mostDigits([1234, 56, 7]); // 4
+mostDigits([1, 1, 11111, 1]); // 5
+mostDigits([12, 34, 56, 78]); // 2
+```
+
+### Radix sort Pseudocode
+*Check out [Visualgo.net](https://visualgo.net/en/sorting), click **Radix sort** to see the visualization.*
+
+- Define a function that accepts list of numbers.
+- Figure out how many digits the largest number has.
+- Loop from k = 0 up to this largest number of digits.
+- For each iteration of the loop:
+  - Create buckets for each digit (0 to 9).
+  - Place each number in the corresponding bucket based on its kth digit.
+- Replace our existing array with values in our buckets, starting with 0 and going up to 9.
+- Return list at the end.
+
+### Big O
+
+- ![Radix Sort Big O](../../assets/images/algorithms/radix-sort-bigO.png)
+
+## RECAP ⛱
+
+- Merge sort and quick sort are standard efficient sorting algorithms.
+- Quick sort can be slow in the worst case, but is comparable to merge sort on average.
+- Merge sort takes up more memory because it creates a new array *(in-place merge sorts exist, but they are really complex!).*
+- **Radix sort** is a fast sorting algorithm for numbers.
+- Radix sort exploits place value to sort numbers in linear time (for a fixed number of digits).
+
+## References
+
+- [Intermediate sorting algorithm slides](https://cs.slides.com/colt_steele/intermediate-sorting-algorithms#/)
+- [Visual sort by Visualgo.net](https://visualgo.net/en/sorting)
