@@ -1,5 +1,5 @@
 # Intermediate Sorting Algorithms 🦄
-To see the elementary sorting, check out this file [Elementary sorting algorithm](./README.md)
+👉 To see the elementary sorting, check out this file [Elementary sorting algorithm](./README.md)
 
 ## Objective
 
