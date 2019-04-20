@@ -1,4 +1,5 @@
-# Intermediate Sorting Algorithms 🔖
+# Intermediate Sorting Algorithms 🦄
+To see the elementary sorting, check out this file [Elementary sorting algorithm](./README.md)
 
 ## Objective
 
@@ -97,7 +98,7 @@
 
     - ![Quick Sort Big O Why Worse case?](../../assets/images/algorithms/quick-sort-bigO-why-worse.png)
 
-## RADIX SORT
+## 📌 RADIX SORT
 
 ### Features
 
