@@ -89,6 +89,19 @@ Example3: gcd(5, 0) = 5
 Note : The exponent of a number says how many times the base number is used as a factor.
 82 = 8 x 8 = 64. Here 8 is the base and 2 is the exponent.
 ```
+4. Write a recursive function called reverse which accepts a string and returns a new string in reverse
+```
+// reverse('awesome') // 'emosewa'
+// reverse('rithmschool') // 'loohcsmhtir'
+```
+5. Write a recursive function called isPalindrome which returns true if the string passed to it is a palindrome. Otherwise it returns false.
+```
+// isPalindrome('awesome') // false
+// isPalindrome('foobar') // false
+// isPalindrome('tacocat') // true
+// isPalindrome('amanaplanacanalpanama') // true
+// isPalindrome('amanaplanacanalpandemonium') // false
+```
 
 ## References
 - [Recursion slides](https://cs.slides.com/colt_steele/searching-algorithms-22#/23)

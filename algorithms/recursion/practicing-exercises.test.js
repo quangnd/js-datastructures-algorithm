@@ -21,4 +21,6 @@ test('3. Should display the greatest common divisor of two positive numbers', t 
   t.is(funcs.gcd(0, 5), 5)
 });
 
+//TODO: add test for 4, 5
+
 
