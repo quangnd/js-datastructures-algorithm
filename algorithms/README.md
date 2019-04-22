@@ -1,6 +1,6 @@
 # Algorithms 🐚
 
-👉 See [Why learn algorithm](../README.md)
+👉 See [Why learn algorithm](../README.md#why-learn-algorithm-)
 
 ## Table of contents
 
