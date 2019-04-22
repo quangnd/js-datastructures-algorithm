@@ -6,6 +6,7 @@ class SinglyLinkedList {
     this.tail = null;
     this.length = 0;
   }
+  //Adding a new node to the end of the Linked List!
   push(val) {
     var newNode = new Node(val);
     if (!this.head) {
@@ -18,6 +19,7 @@ class SinglyLinkedList {
     this.length++;
     return this;
   }
+  //Removing a node from the end of the Linked List!
   pop() {
     if (!this.head) return undefined;
     var current = this.head;
@@ -35,6 +37,7 @@ class SinglyLinkedList {
     }
     return current;
   }
+  //Removing a new node from the beginning of the Linked List!
   shift() {
     if (!this.head) return undefined;
     var currentHead = this.head;
@@ -45,6 +48,7 @@ class SinglyLinkedList {
     }
     return currentHead;
   }
+  //Adding a new node to the beginning of the Linked List!
   unshift(val) {
     var newNode = new Node(val);
     if (!this.head) {
@@ -56,6 +60,7 @@ class SinglyLinkedList {
     this.length++;
     return this;
   }
+  //Retrieving a node by it's position in the Linked List!
   get(index) {
     if (index < 0 || index >= this.length) return null;
     var counter = 0;
@@ -66,6 +71,7 @@ class SinglyLinkedList {
     }
     return current;
   }
+  //Changing the value of a node based on it's position in the Linked List
   set(index, val) {
     var foundNode = this.get(index);
     if (foundNode) {
@@ -74,6 +80,7 @@ class SinglyLinkedList {
     }
     return false;
   }
+  //Adding a node to the Linked List at a specific position
   insert(index, val) {
     if (index < 0 || index > this.length) return false;
     if (index === this.length) return !!this.push(val);
@@ -87,6 +94,7 @@ class SinglyLinkedList {
     this.length++;
     return true;
   }
+  //Removing a node from the Linked List at a specific position
   remove(index) {
     if (index < 0 || index >= this.length) return undefined;
     if (index === 0) return this.shift();
@@ -97,6 +105,7 @@ class SinglyLinkedList {
     this.length--;
     return removed;
   }
+  //Reversing the Linked List in place!
   reverse() {
     var node = this.head;
     this.head = this.tail;
@@ -111,14 +120,14 @@ class SinglyLinkedList {
     }
     return this;
   }
-  print() {
+  toArray() {
     var arr = [];
     var current = this.head
     while (current) {
       arr.push(current.val)
       current = current.next
     }
-    console.log(arr);
+    return arr
   }
 }
 

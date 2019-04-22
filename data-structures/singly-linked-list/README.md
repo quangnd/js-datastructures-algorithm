@@ -1,4 +1,4 @@
-# Singly Linked Lists
+# Singly Linked Lists 🌱
 
 ## Objective
 
@@ -26,3 +26,20 @@
 
 ## 3. Class diagram
 
+  ![Singly linked list Class diagram](../../assets/images/data-structures/singly-linked-list-class-diagram.png)
+
+## 4. Big O
+
+  ![Singly linked list BigO](../../assets/images/data-structures/singly-linked-list-bigO.png)
+
+## 5. Recap ⛱
+
+- Singly Linked Lists are an excellent alternative to arrays when insertion and deletion at the beginning are frequently required.
+- Arrays contain a built in index whereas Linked Lists do not.
+- The idea of a list data structure that consists of nodes is the foundation for other data structures like *Stacks* and *Queues*.
+
+*[👈 Back to Data Structures dir](../README.md)*
+
+## References
+
+- [Singly linked lists slides](https://cs.slides.com/colt_steele/singly-linked-lists)

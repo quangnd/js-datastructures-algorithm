@@ -2,7 +2,7 @@
 
 ## Objective
 
-1. Singly Linked Lists
+1. [Singly Linked Lists](./singly-linked-list/README.md)
 2. Doubly Linked Lists
 3. Stacks + Queues
 4. Binary Search Tree
