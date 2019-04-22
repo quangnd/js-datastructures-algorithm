@@ -4,6 +4,12 @@ Using Javascript & Ava test runner🔥
 - **Data structure**: method to store information
 > ALGORITHMS + DATA STRUCTURES = PROGRAMS.
 
+## Table of contents 🗂
+
+1. [Problem solving patterns.](./problem-solving-patterns/README.md)
+2. [Algorithms.](./algorithms/README.md)
+3. [Data Structures.](./data-structures/README.md)
+
 ## Why learn algorithm 👨🏻‍💻
 
 👉 **Their impact is broad and far-reaching**
@@ -57,6 +63,7 @@ In particular, **hash tables** are an extremely important topic. Make sure you a
 3. Run `npm run test-recursion` to run all tests in `recursion folder`.
 4. Run `npm run test-search` to run all tests in `searching folder`.
 5. Run `npm run test-sort` to run all tests in `sorting folder`.
+6. Run `npm run test-data-structures` to run all tests in `data-structures folder`.
 
 ## Learning resources 📃
 
