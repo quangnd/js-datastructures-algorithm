@@ -13,7 +13,7 @@
 
   ![Stack](../../assets/images/data-structures/Stack.png)
 
-- * 👻 **Analogy**: Think about a stack of plates, or a stack of markers, or a stack of....anything. As you pile it up the last thing (or the topmost thing) is what gets removed first.*
+- 👻 **Analogy**: Think about a stack of plates, or a stack of markers, or a stack of....anything. As you pile it up the last thing (or the topmost thing) is what gets removed first.*
 - *Check out [Visualgo.net](https://visualgo.net/en/list), click **Stack** to see the visualization.*
 
 ## 2. Where Stacks are used

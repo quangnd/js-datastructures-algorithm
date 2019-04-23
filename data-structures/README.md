@@ -4,7 +4,7 @@
 
 1. [Singly Linked Lists](./singly-linked-list/README.md)
 2. [Doubly Linked Lists](./doubly-linked-list/README.md)
-3. Stacks
+3. [Stacks](./stacks/README.md)
 4. Queues
 5. Binary Search Tree
 6. Tree Traversal

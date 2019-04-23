@@ -13,7 +13,7 @@
 
   ![Singly linked list](../../assets/images/data-structures/singly-linked-list.png)
 
-- * 👻 **Analogy**: Sort of a chain of elephants, back before that band elephants at the circus, they would grab each other's tails with their nodes and walk in line.*
+- 👻 **Analogy**: Sort of a chain of elephants, back before that band elephants at the circus, they would grab each other's tails with their nodes and walk in line.*
 - *Check out [Visualgo.net](https://visualgo.net/en/list), click **LINKED LIST** to see the visualization.*
 
 ## 2. Comparisons with Arrays
