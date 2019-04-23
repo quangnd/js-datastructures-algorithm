@@ -1,6 +1,6 @@
 # Singly Linked Lists 🌱
 
-## Objective
+## Objectives
 
 1. Define what a Singly Linked List is.
 2. Compare and contrast Linked Lists with Arrays.

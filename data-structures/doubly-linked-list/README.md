@@ -1,6 +1,6 @@
 # Doubly Linked Lists 🍀
 
-## Objective
+## Objectives
 
 1. Construct a Doubly Linked List
 2. Compare and contrast Doubly and Singly Linked Lists

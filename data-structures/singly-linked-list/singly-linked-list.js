@@ -37,7 +37,7 @@ class SinglyLinkedList {
     }
     return current;
   }
-  //Removing a new node from the beginning of the Linked List!
+  //Removing a node from the beginning of the Linked List!
   shift() {
     if (!this.head) return undefined;
     let currentHead = this.head;
