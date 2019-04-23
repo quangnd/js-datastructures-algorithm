@@ -3,15 +3,16 @@
 ## Objective
 
 1. [Singly Linked Lists](./singly-linked-list/README.md)
-2. Doubly Linked Lists
-3. Stacks + Queues
-4. Binary Search Tree
-5. Tree Traversal
-6. Binary Heaps
-7. Hash Tables
-8. Graphs
-9. Graph Traversal
-10. Dijkstra's
+2. [Doubly Linked Lists](./doubly-linked-list/README.md)
+3. Stacks
+4. Queues
+5. Binary Search Tree
+6. Tree Traversal
+7. Binary Heaps
+8. Hash Tables
+9. Graphs
+10. Graph Traversal
+11. Dijkstra's
 
 ## What do they do
 
