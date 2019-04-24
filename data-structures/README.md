@@ -5,8 +5,8 @@
 1. [Singly Linked Lists](./singly-linked-list/README.md)
 2. [Doubly Linked Lists](./doubly-linked-list/README.md)
 3. [Stacks](./stacks/README.md)
-4. [Queues](./stacks/README.md)
-5. Binary Search Tree
+4. [Queues](./queues/README.md)
+5. [Binary Search Tree](./binary-search-tree/README.md)
 6. Tree Traversal
 7. Binary Heaps
 8. Hash Tables
