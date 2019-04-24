@@ -51,6 +51,10 @@
 
   ![BST](../../assets/images/data-structures/BST.png)
 
+## 6. Class diagram
+
+  ![BST Class diagram](../../assets/images/data-structures/bst-class-diagram.png)
+
 ## 6. Big O
 
   ![Tree-BigO-1](../../assets/images/data-structures/Tree-BigO-1.png)
@@ -58,7 +62,7 @@
   ![Tree-BigO-2](../../assets/images/data-structures/Tree-BigO-2.png)
 
   ![Tree-BigO-3](../../assets/images/data-structures/Tree-BigO-3.png)
-  
+
 *👈 [Back to Data Structures dir](../README.md)*
 
 ## References
