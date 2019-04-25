@@ -1,4 +1,4 @@
-# Problem solving approach & patterns 🤺
+# Problem solving approach & patterns 🔬
 
 ## How do you improve? 🔥
 

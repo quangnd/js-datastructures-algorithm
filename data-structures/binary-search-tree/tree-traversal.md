@@ -5,7 +5,7 @@
 
 ## Breadth-first Search (BFS) 🐡
 
-1. What is BFS
+1. **What is BFS**
 
   ![BFS Image](../../assets/images/data-structures/BFS.png)
 
@@ -69,13 +69,13 @@
 
 ## When to use BFS & DFS
 
-  - ![BFS Many nodes](../../assets/images/data-structures/BFS-many-nodes.png)
+  ![BFS Many nodes](../../assets/images/data-structures/BFS-many-nodes.png)
 
-  - ![DFS Few nodes](../../assets/images/data-structures/DFS-few-nodes.png)
+  ![DFS Few nodes](../../assets/images/data-structures/DFS-few-nodes.png)
 
-  - ![DFS-InOrder-BST](../../assets/images/data-structures/DFS-InOrder-BST.png)
+  ![DFS-InOrder-BST](../../assets/images/data-structures/DFS-InOrder-BST.png)
 
-  - ![DFS-PreOrder-export-tree](../../assets/images/data-structures/DFS-PreOrder-export-tree.png)
+  ![DFS-PreOrder-export-tree](../../assets/images/data-structures/DFS-PreOrder-export-tree.png)
 
 ## RECAP ⛱
 

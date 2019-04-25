@@ -6,9 +6,9 @@ Using Javascript & Ava test runner🔥
 
 ## Table of contents 🗂
 
-1. [Problem solving patterns.](./problem-solving-patterns/README.md)
-2. [Algorithms.](./algorithms/README.md)
-3. [Data Structures.](./data-structures/README.md)
+1. [Problem solving patterns 🔬](./problem-solving-patterns/README.md)
+2. [Algorithms 🐚](./algorithms/README.md)
+3. [Data Structures 🕸](./data-structures/README.md)
 
 ## Why learn algorithm 👨🏻‍💻
 
