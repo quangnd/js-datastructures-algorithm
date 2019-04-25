@@ -1,4 +1,5 @@
 # Tree 🌳
+*👉 [Checkout Tree Traversal](./tree-traversal.md)*
 
 ## Objectives
 

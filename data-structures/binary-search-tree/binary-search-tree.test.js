@@ -50,3 +50,34 @@ test(`Should return boolean if BST contains element or not with contains(val)`, 
   t.is(bst.contains(13), true)
   t.is(bst.contains(100), false)
 })
+
+//=== TREE TRAVERSAL
+test(`Should return values of nodes visited with Breadth-First Search - BFS()`, t => {
+  const bst = new BinarySearchTree()
+  bst.insert(10).insert(6).insert(15).insert(3).insert(8).insert(20).insert(5).insert(9)
+
+  t.is(JSON.stringify(bst.BFS()), JSON.stringify([10, 6, 15, 3, 8, 20, 5, 9]))
+})
+
+test(`Should return values of nodes visited with Deep-First Search Pre-Order - DFSPreOrder()`, t => {
+  const bst = new BinarySearchTree()
+
+  bst.insert(10).insert(6).insert(15).insert(3).insert(8).insert(20).insert(5).insert(9)
+  t.is(JSON.stringify(bst.DFSPreOrder()), JSON.stringify([10, 6, 3, 5, 8, 9, 15, 20]))
+})
+
+test(`Should return values of nodes visited with Deep-First Search Post-Order - DFSPostOrder()`, t => {
+  const bst = new BinarySearchTree()
+
+  bst.insert(10).insert(6).insert(15).insert(3).insert(8).insert(20).insert(5).insert(9)
+  t.is(JSON.stringify(bst.DFSPostOrder()), JSON.stringify([5, 3, 9, 8, 6, 20, 15, 10]))
+})
+
+test(`Should return values of nodes visited with Deep-First Search In-Order - DFSInOrder()`, t => {
+  const bst = new BinarySearchTree()
+
+  bst.insert(10).insert(6).insert(15).insert(3).insert(8).insert(20).insert(5).insert(9)
+  t.is(JSON.stringify(bst.DFSInOrder()), JSON.stringify([3, 5, 6, 8, 9, 10, 15, 20]))
+})
+
+
