@@ -30,6 +30,10 @@
 - Binary Heaps are used to implement **Priority Queues**, which are very commonly used data structures.
 - They are also used quite a bit, with graph traversal algorithms.
 
+## Test
+
+- Run `ava --verbose ./data-structures/binary-heaps/max-binary-heap.test.js`
+
 ## References
 
-https://cs.slides.com/colt_steele/heaps
+- https://cs.slides.com/colt_steele/heaps
