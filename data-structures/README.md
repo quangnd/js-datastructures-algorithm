@@ -8,7 +8,7 @@
 4. [Queues](./queues/README.md)
 5. [Binary Search Tree](./binary-search-tree/README.md)
 6. [Tree Traversal](./binary-search-tree/tree-traversal.md)
-7. Binary Heaps
+7. [Binary Heaps](./binary-heaps/README.md)
 8. Hash Tables
 9. Graphs
 10. Graph Traversal
