@@ -1,4 +1,5 @@
 # Tree Traversal 🌲
+*👈 [Back to Data Structures dir](../README.md)*
 
 1. Breadth-first Search - **BFS**
 2. Depth-first Search - **DFS**

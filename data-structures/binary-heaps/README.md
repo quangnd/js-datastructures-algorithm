@@ -1,4 +1,5 @@
 # Binary Heaps 🚿
+*👉 [Checkout Priority Queue](./priority-queue.md)*
 
 ## Objectives
 
@@ -30,10 +31,28 @@
 - Binary Heaps are used to implement **Priority Queues**, which are very commonly used data structures.
 - They are also used quite a bit, with graph traversal algorithms.
 
+## Class diagram
+
+  ![Max binary Heap Class diagram](../../assets/images/data-structures/max-binary-heap-class-diagram.png)
+
 ## Test
 
 - Run `ava --verbose ./data-structures/binary-heaps/max-binary-heap.test.js`
 
+## Big O of Binary Heaps
+
+  ![Binary heap big O 1](../../assets/images/data-structures/binary-heap-bigO-1.png)
+
+  ![Binary heap big O 2](../../assets/images/data-structures/binary-heap-bigO-2.png)
+
+## Recap ⛱
+
+- Binary Heaps are very useful data structures for sorting, and implementing other data structures like priority queues.
+- Binary Heaps are either MaxBinaryHeaps or MinBinaryHeaps with parents either being smaller or larger than their children.
+- With just a little bit of math, we can represent heaps using arrays!
+
+*👈 [Back to Data Structures dir](../README.md)*
+
 ## References
 
-- https://cs.slides.com/colt_steele/heaps
+- [Heaps slides](https://cs.slides.com/colt_steele/heaps)
