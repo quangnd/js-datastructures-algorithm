@@ -34,11 +34,11 @@
   - **Python** has **Dictionaries**
   - **Javascript** has **Objects**(with some restrictions) and **Maps**
   - **Java**, **Go**, & **Scala** have **Maps**
-  - Ruby has **Hashes**
+  - **Ruby** has **Hashes**
 
 ## Hash function
 
-- In order to look up values by key, we need a way to convert keys into valid array indices. A function that performs this task is called a hash function
+- In order to look up values by key, we need a way to convert keys into valid array indices. A function that performs this task is called a **hash function**.
 - To make a good hash, there are three major points (*not a cryptographically secure one*)
   - Fast (i.e. constant time).
   - Doesn't cluster outputs at specific indices, but distributes uniformly.
@@ -65,7 +65,7 @@
 
 ## Class diagram
 
-  ![Max binary Heap Class diagram](../../assets/images/data-structures/max-binary-heap-class-diagram.png)
+  ![Hash Table Class diagram](../../assets/images/data-structures/hash-table-class-diagram.png)
 
 ## Test
 
