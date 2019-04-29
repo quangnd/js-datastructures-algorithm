@@ -69,6 +69,10 @@
 | Faster to iterate over all edges | Slower to iterate over all edges  |
 | Can be slower to lookup specific edge | Faster to lookup specific edge  |
 
+## Class Diagram
+
+  ![Graph class diagram](../../assets/images/data-structures/graph-class-diagram.png)
+
 ## Test
 
 - Run `ava --verbose ./data-structures/graphs/graphs.test.js`
