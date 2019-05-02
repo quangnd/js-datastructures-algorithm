@@ -10,8 +10,8 @@
 6. [Tree Traversal](./binary-search-tree/tree-traversal.md)
 7. [Binary Heaps](./binary-heaps/README.md)
 8. [Hash Tables](./hash-table/README.md)
-9. Graphs
-10. Graph Traversal
+9. [Graphs](./graphs)
+10. [Graph Traversal](./graphs/graph-traversal.md)
 11. Dijkstra's
 
 ## What do they do
