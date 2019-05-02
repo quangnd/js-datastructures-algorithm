@@ -2,17 +2,17 @@
 
 ## Objective
 
-1. [Singly Linked Lists](./singly-linked-list/README.md)
-2. [Doubly Linked Lists](./doubly-linked-list/README.md)
-3. [Stacks](./stacks/README.md)
-4. [Queues](./queues/README.md)
-5. [Binary Search Tree](./binary-search-tree/README.md)
+1. [Singly Linked Lists](./singly-linked-list)
+2. [Doubly Linked Lists](./doubly-linked-list)
+3. [Stacks](./stacks)
+4. [Queues](./queues)
+5. [Binary Search Tree](./binary-search-tree)
 6. [Tree Traversal](./binary-search-tree/tree-traversal.md)
-7. [Binary Heaps](./binary-heaps/README.md)
-8. [Hash Tables](./hash-table/README.md)
+7. [Binary Heaps](./binary-heaps)
+8. [Hash Tables](./hash-table)
 9. [Graphs](./graphs)
 10. [Graph Traversal](./graphs/graph-traversal.md)
-11. Dijkstra's
+11. [Dijkstra's Algorithm](./dijkstra-algorithm)
 
 ## What do they do
 
